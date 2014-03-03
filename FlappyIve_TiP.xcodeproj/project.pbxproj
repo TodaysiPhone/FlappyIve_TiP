@@ -21,6 +21,13 @@
 		274A9E0518C5145C003424E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274A9DE718C5145C003424E8 /* UIKit.framework */; };
 		274A9E0D18C5145C003424E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E0B18C5145C003424E8 /* InfoPlist.strings */; };
 		274A9E0F18C5145C003424E8 /* FlappyIve_TiPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274A9E0E18C5145C003424E8 /* FlappyIve_TiPTests.m */; };
+		274A9E1F18C514E3003424E8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E1818C514E3003424E8 /* background.png */; };
+		274A9E2018C514E3003424E8 /* jony0.png in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E1918C514E3003424E8 /* jony0.png */; };
+		274A9E2118C514E3003424E8 /* jony1.png in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E1A18C514E3003424E8 /* jony1.png */; };
+		274A9E2218C514E3003424E8 /* jony2.png in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E1B18C514E3003424E8 /* jony2.png */; };
+		274A9E2318C514E3003424E8 /* jony4.png in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E1C18C514E3003424E8 /* jony4.png */; };
+		274A9E2418C514E3003424E8 /* scott_upside_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E1D18C514E3003424E8 /* scott_upside_down.png */; };
+		274A9E2518C514E3003424E8 /* scott.png in Resources */ = {isa = PBXBuildFile; fileRef = 274A9E1E18C514E3003424E8 /* scott.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		274A9E0A18C5145C003424E8 /* FlappyIve_TiPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyIve_TiPTests-Info.plist"; sourceTree = "<group>"; };
 		274A9E0C18C5145C003424E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		274A9E0E18C5145C003424E8 /* FlappyIve_TiPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyIve_TiPTests.m; sourceTree = "<group>"; };
+		274A9E1818C514E3003424E8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		274A9E1918C514E3003424E8 /* jony0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jony0.png; sourceTree = "<group>"; };
+		274A9E1A18C514E3003424E8 /* jony1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jony1.png; sourceTree = "<group>"; };
+		274A9E1B18C514E3003424E8 /* jony2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jony2.png; sourceTree = "<group>"; };
+		274A9E1C18C514E3003424E8 /* jony4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jony4.png; sourceTree = "<group>"; };
+		274A9E1D18C514E3003424E8 /* scott_upside_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scott_upside_down.png; sourceTree = "<group>"; };
+		274A9E1E18C514E3003424E8 /* scott.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scott.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +140,13 @@
 		274A9DEA18C5145C003424E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				274A9E1818C514E3003424E8 /* background.png */,
+				274A9E1918C514E3003424E8 /* jony0.png */,
+				274A9E1A18C514E3003424E8 /* jony1.png */,
+				274A9E1B18C514E3003424E8 /* jony2.png */,
+				274A9E1C18C514E3003424E8 /* jony4.png */,
+				274A9E1D18C514E3003424E8 /* scott_upside_down.png */,
+				274A9E1E18C514E3003424E8 /* scott.png */,
 				274A9DEB18C5145C003424E8 /* FlappyIve_TiP-Info.plist */,
 				274A9DEC18C5145C003424E8 /* InfoPlist.strings */,
 				274A9DEF18C5145C003424E8 /* main.m */,
@@ -229,7 +250,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274A9E2418C514E3003424E8 /* scott_upside_down.png in Resources */,
+				274A9E2318C514E3003424E8 /* jony4.png in Resources */,
+				274A9E2218C514E3003424E8 /* jony2.png in Resources */,
 				274A9DFC18C5145C003424E8 /* Images.xcassets in Resources */,
+				274A9E1F18C514E3003424E8 /* background.png in Resources */,
+				274A9E2018C514E3003424E8 /* jony0.png in Resources */,
+				274A9E2118C514E3003424E8 /* jony1.png in Resources */,
+				274A9E2518C514E3003424E8 /* scott.png in Resources */,
 				274A9DEE18C5145C003424E8 /* InfoPlist.strings in Resources */,
 				274A9DF718C5145C003424E8 /* Main.storyboard in Resources */,
 			);
