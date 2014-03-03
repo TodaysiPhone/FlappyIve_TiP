@@ -26,22 +26,25 @@
     
     [super viewDidLoad];
     
+    // *********** 1 *********** //
     UIImageView *background = [[UIImageView alloc] initWithFrame:[[self view] bounds]];
     [background setImage:[UIImage imageNamed:@"background.png"]];
     [background setContentMode:UIViewContentModeScaleAspectFill];
     [[self view] addSubview:background];
     
+    // *********** 2 *********** //
     UIImageView *jonyFlapper = [[UIImageView alloc] initWithFrame:JonyStartingFrame];
     [jonyFlapper setContentMode:UIViewContentModeScaleAspectFit];
     
-    NSArray *birdArray = [NSArray arrayWithObjects:[UIImage imageNamed:@"jony0.png"], [UIImage imageNamed:@"jony1.png"], [UIImage imageNamed:@"jony2.png"], [UIImage imageNamed:@"jony3.png"], nil];
+    NSArray *jonyArray = [NSArray arrayWithObjects:[UIImage imageNamed:@"jony0.png"], [UIImage imageNamed:@"jony1.png"], [UIImage imageNamed:@"jony2.png"], [UIImage imageNamed:@"jony3.png"], nil];
     
-    [jonyFlapper setAnimationImages:birdArray];
+    [jonyFlapper setAnimationImages:jonyArray];
     [jonyFlapper setAnimationDuration:0.7];
     [jonyFlapper startAnimating];
     [[self view] addSubview:jonyFlapper];
     [self setJony:jonyFlapper];
     
+    // *********** 3 *********** //
     UILabel *score = [[UILabel alloc] initWithFrame:CGRectMake(0, 80, CGRectGetWidth([[self view] frame]), 80)];
     [score setTextAlignment:NSTextAlignmentCenter];
     [score setFont:[UIFont systemFontOfSize:80.0f]];
